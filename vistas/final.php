@@ -1,4 +1,4 @@
-<div class="has-background-danger-85 is-fullwidth" >
+<div class="has-background-primary is-fullwidth">
     <div class="container-is-full has-background-primary-90">
         <div class="columns is-centered">
             <div class="column is-full">
@@ -27,7 +27,7 @@
     <nav class="tabs is-boxed is-fullwidth ">
       <div class="container">
         <ul>
-          <li class="is-active"><a href="final.php?action=default">Iniciar simulación</a></li>
+          <li class="is-active"><a>Iniciar simulación</a></li>
           <li><a>Modifiers</a></li>
         </ul>
       </div>
