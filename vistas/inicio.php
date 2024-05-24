@@ -1,27 +1,6 @@
-<html>
-    <header>
-      <link rel="stylesheet" href="../CSS/styles.css">
-    </header>
-    <body>
-      
-<div class="has-background-danger-85 is-fullwidth" >
-  <h1 class="cssFont_1" >FRESH</h1>
-    <div class="container-is-full has-background-primary-90">
-        <div class="columns is-centered">
-            <div class="column is-full">
-                <p class="subtitle is-4 has-text-centered has-text-link">Elige un sabor</p>
-                <button >
-                  <img src="..\imgs\images.jpeg" width="200px" height="130">
-                </button>
-              <button>
-                <img src="..\imgs\h.jpg" width="200px" height="130">
-              </button>
-            <button >
-              <img src="..\imgs\limon.jpeg" width="200px" height="130">
-            </button>
-            </div>
-        </div>
-    </div>
+<div class="has-background-danger-85 is-fullwidth" style="
+background: linear-gradient(0deg, rgba(123,46,195,1) 1%, rgba(214,64,236,1) 6%, rgba(222,98,240,1) 9%, rgba(234,108,252,1) 14%, rgba(224,114,240,1) 18%, rgba(232,146,245,1) 31%, rgba(116,141,221,1) 45%, rgba(61,120,214,1) 52%, rgba(56,136,209,1) 57%, rgba(43,165,236,1) 63%, rgba(22,157,214,1) 70%, rgba(40,167,214,1) 80%, rgba(40,192,228,1) 86%);" >
+  <h1 class="title" >FRESH</h1>
     <section class="hero is-primary-light is-medium">
   <div class="hero-head">
   </div>
