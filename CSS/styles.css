@@ -8,3 +8,17 @@ body{
 background: linear-gradient(0deg, rgba(123,46,195,1) 1%, rgba(214,64,236,1) 6%, rgba(222,98,240,1) 9%, rgba(234,108,252,1) 14%, rgba(224,114,240,1) 18%, rgba(232,146,245,1) 31%, rgba(116,141,221,1) 45%, rgba(61,120,214,1) 52%, rgba(56,136,209,1) 57%, rgba(43,165,236,1) 63%, rgba(22,157,214,1) 70%, rgba(40,167,214,1) 80%, rgba(40,192,228,1) 86%);
 
 }
+.cssFont_1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 80px;
+	letter-spacing: 0px;
+	word-spacing: 0px;
+	color: #0f0a5c;
+	font-weight: bold;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: small-caps;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 5px 5px #7536e19c;
+	}
