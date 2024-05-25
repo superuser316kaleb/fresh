@@ -15,22 +15,17 @@ background: linear-gradient(0deg, rgba(123,46,195,1) 1%, rgba(214,64,236,1) 6%, 
     </div>
     <div class="hero-body is-fullwidth is-centered">
         <div class="container has-text-centered">
-            <p class="title">ELIGE UN SABOR</p>
+            <p class="title">CON HIELO?</p>
             <div class="columns is-mobile is-centered">
                 <div class="column is-one-fifth"></div>
                 <div class="column is-one-third">
                     <figure class="image is-128x128 ">
-                        <img src="imgs/lc.png">
+                        <img src="imgs/<?php echo $_SESSION['sabor'].$_SESSION['tamano']; ?>.png">
                     </figure>  
                 </div>
                 <div class="column is-one-third">
                     <figure class="image is-128x128 ">
-                        <img src="imgs/jc.png">
-                    </figure>  
-                </div>
-                <div class="column is-one-third">    
-                    <figure class="image is-128x128 ">
-                        <img src="imgs/hc.png">
+                        <img src="imgs/<?php echo $_SESSION['sabor'].$_SESSION['tamano']; ?>h.png">
                     </figure>  
                 </div>
             </div>
@@ -40,13 +35,12 @@ background: linear-gradient(0deg, rgba(123,46,195,1) 1%, rgba(214,64,236,1) 6%, 
     </div>
     <div class="hero-foot">
         <nav class="tabs is-boxed is-fullwidth ">
-                <div class="container">
-                    <ul>
-                        <li><a href="inicio.php?do=tamano&sabor=l">Limón</a></li>
-                        <li><a href="inicio.php?do=tamano&sabor=j">Jamaica</a></li>
-                        <li><a href="inicio.php?do=tamano&sabor=h">Horchata</a></li>
-                    </ul>
-                </div>
+            <div class="container">
+                <ul>
+                    <li><a href="inicio.php?do=final&hielo=">Sin hielo</a></li>
+                    <li><a href="inicio.php?do=final&hielo=h">Con hielo</a></li>
+                </ul>
+            </div>
         </nav>
     </div>
 </section>

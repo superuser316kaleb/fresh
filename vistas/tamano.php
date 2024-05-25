@@ -15,22 +15,22 @@ background: linear-gradient(0deg, rgba(123,46,195,1) 1%, rgba(214,64,236,1) 6%, 
     </div>
     <div class="hero-body is-fullwidth is-centered">
         <div class="container has-text-centered">
-            <p class="title">ELIGE UN SABOR</p>
+            <p class="title">ELIGE UN UN TAMAÑO</p>
             <div class="columns is-mobile is-centered">
                 <div class="column is-one-fifth"></div>
                 <div class="column is-one-third">
                     <figure class="image is-128x128 ">
-                        <img src="imgs/lc.png">
+                        <img src="imgs/<?php echo $_SESSION['sabor']; ?>c.png">
                     </figure>  
                 </div>
                 <div class="column is-one-third">
                     <figure class="image is-128x128 ">
-                        <img src="imgs/jc.png">
+                        <img src="imgs/<?php echo $_SESSION['sabor']; ?>m.png">
                     </figure>  
                 </div>
                 <div class="column is-one-third">    
                     <figure class="image is-128x128 ">
-                        <img src="imgs/hc.png">
+                        <img src="imgs/<?php echo $_SESSION['sabor']; ?>g.png">
                     </figure>  
                 </div>
             </div>
@@ -40,13 +40,13 @@ background: linear-gradient(0deg, rgba(123,46,195,1) 1%, rgba(214,64,236,1) 6%, 
     </div>
     <div class="hero-foot">
         <nav class="tabs is-boxed is-fullwidth ">
-                <div class="container">
-                    <ul>
-                        <li><a href="inicio.php?do=tamano&sabor=l">Limón</a></li>
-                        <li><a href="inicio.php?do=tamano&sabor=j">Jamaica</a></li>
-                        <li><a href="inicio.php?do=tamano&sabor=h">Horchata</a></li>
-                    </ul>
-                </div>
+            <div class="container">
+                <ul>
+                    <li><a>Chico</a></li>
+                    <li><a href="inicio.php?do=hielo&tamano=m">Mediano</a></li>
+                    <li><a href="inicio.php?do=hielo&tamano=g">Grande</a></li>
+                </ul>
+            </div>
         </nav>
     </div>
 </section>
