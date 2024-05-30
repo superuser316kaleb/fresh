@@ -24,7 +24,7 @@ background: linear-gradient(0deg, rgba(123,46,195,1) 1%, rgba(214,64,236,1) 6%, 
       <div class="container">
         <ul>
           <li class="is-active"><a href="inicio.php?do=sabores">Iniciar simulación</a></li>
-          <li><a href="CLOSE">CERRAR</a></li>
+          <li><a href="about:blank">CERRAR</a></li>
         </ul>
       </div>
     </nav>

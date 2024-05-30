@@ -27,7 +27,7 @@ background: linear-gradient(0deg, rgba(123,46,195,1) 1%, rgba(214,64,236,1) 6%, 
       <div class="container">
         <ul>
           <li class="is-active"><a href="inicio.php?do=reiniciar">REINICIAR SIMULACIÓN</a></li>
-          <li><a>SALIR</a></li>
+          <li><a href="about:blank">SALIR</a></li>
         </ul>
       </div>
     </nav>

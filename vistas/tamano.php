@@ -42,7 +42,7 @@ background: linear-gradient(0deg, rgba(123,46,195,1) 1%, rgba(214,64,236,1) 6%, 
         <nav class="tabs is-boxed is-fullwidth ">
             <div class="container">
                 <ul>
-                    <li><a>Chico</a></li>
+                    <li><a href="inicio.php?do=hielo&tamano=c">Chico</a></li>
                     <li><a href="inicio.php?do=hielo&tamano=m">Mediano</a></li>
                     <li><a href="inicio.php?do=hielo&tamano=g">Grande</a></li>
                 </ul>
