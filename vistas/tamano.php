@@ -5,7 +5,7 @@ background: linear-gradient(0deg, rgba(123,46,195,1) 1%, rgba(214,64,236,1) 6%, 
         <div class="column is-full has-background">
             <h1 class="title is-1 has-text-centered has-text-link-light">FRESH</h1>
             <p class="subtitle is-4 has-text-centered has-text-link">Simulador de VENDING MACHINE</p>
-            <p class="subtitle is-4 has-text-centered has-text-link">BIENVENIDO CLIENTE</p>
+            <p class="subtitle is-4 has-text-centered has-text-link"></p>
             
         </div>
     </div>

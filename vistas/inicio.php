@@ -10,14 +10,8 @@ background: linear-gradient(0deg, rgba(123,46,195,1) 1%, rgba(214,64,236,1) 6%, 
   </div>
 </div>
 <section class="hero is-primary-light is-medium">
-  <div class="hero-body is-fullwidth">
-    <div class="card">
-      <div class="card-image">
-        <figure class="image">
-          <img src="imgs/jamaicamuestra.jpg" width="400" height="400"  />
-        </figure>
-      </div>
-    </div>
+  <div class="hero-body has-text-centered">
+    <img src="imgs/inicio.jpg" width="500" height="400"  />
   </div>
   <div class="hero-foot">
     <nav class="tabs is-boxed is-fullwidth ">
